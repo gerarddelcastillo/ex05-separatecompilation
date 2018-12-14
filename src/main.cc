@@ -5,22 +5,9 @@
 #include "g.h"
 #include <iostream>
 
-namespace edu
-{
-    namespace vcccd
-    {
-        namespace vc
-        {
-            namespace csv13
-            {
-                namespace A
-                {
-                    int main()
-                    {
-                        std::cout << f() << " " << g();
-                    }
-                }
-            }
-        }
-    }
+using namespace edu::vcccd::vc::csv13::A;
+int main(){
+    std::cout << f() << std::endl << g();
+
+    return 0;
 }
